@@ -55,6 +55,8 @@ namespace LitmusWithoutAuthentication
                 .AddDefaultTokenProviders();
 
             services.AddMvc();
+            services.AddCors();
+
 
             // Add application services.
             services.AddTransient<IEmailSender, AuthMessageSender>();
@@ -99,6 +101,12 @@ namespace LitmusWithoutAuthentication
             app.UseStaticFiles();
 
             app.UseIdentity();
+
+            app.UseCors(builder =>
+           builder.AllowAnyOrigin()
+                  .AllowAnyHeader()
+                  .AllowAnyMethod()
+           );
 
             // To configure external authentication please see http://go.microsoft.com/fwlink/?LinkID=532715
 
