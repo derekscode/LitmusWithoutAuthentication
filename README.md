@@ -4,6 +4,7 @@ Created using this process: https://docs.google.com/document/d/14_6vvGjWSiykagsP
 
 **Authentication:** Individual User Accounts
 
+card.service.ts:
 ```
 LitmusWithoutAuthentication - works
 private _cardUrl = 'http://localhost:25137/api/card';
