@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{35A30CCC-388B-4DE3-A837-1E2E1A9921B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3FB39373-166D-40EC-A6B5-D90C7951BF69}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LitmusWithoutAuthentication", "src\LitmusWithoutAuthentication\LitmusWithoutAuthentication.xproj", "{A13CFBDA-C2D2-4B7B-AEE7-0F3AEFD19AC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A13CFBDA-C2D2-4B7B-AEE7-0F3AEFD19AC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A13CFBDA-C2D2-4B7B-AEE7-0F3AEFD19AC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A13CFBDA-C2D2-4B7B-AEE7-0F3AEFD19AC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A13CFBDA-C2D2-4B7B-AEE7-0F3AEFD19AC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A13CFBDA-C2D2-4B7B-AEE7-0F3AEFD19AC8} = {35A30CCC-388B-4DE3-A837-1E2E1A9921B2}
+	EndGlobalSection
+EndGlobal
